@@ -1,11 +1,19 @@
+import math
+import operator
 a = float(input("enter first number"));
 b = float(input("enter second number"));
 c = raw_input("what do want to do with them + - * /");
 if c == '+':
-	print "sum is ", a+b
+	print "sum is ", operator.add(a,b)
 elif c == '-':
-	print "difference is ", a-b;
+	print "difference is ", operator.sub(a,b)
 elif c == '*':
-	print "multiplication is ", a*b;
+	print "multiplication is ", operator.mul(a,b)
 elif c == '/':
-	print "division is ", a/b;
+	print "division is ", operator.div(a,b)
+
+print a,b
+d = [a,b]
+print math.pow(a,b)
+print math.sqrt(a)
+print operator.mod(a,b)
