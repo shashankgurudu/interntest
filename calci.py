@@ -1,10 +1,11 @@
 import calc
+from calc import *
 a = float(input("enter first number"));
 b = float(input("enter second number"));
-calc.add(a,b)
-calc.sub(a,b)
-calc.mul(a,b)
-calc.div(a,b)
-calc.pow(a,b)
-calc.sqrt(a,b)
-calc.mod(a,b)
+add(a,b)
+sub(a,b)
+mul(a,b)
+div(a,b)
+pow(a,b)
+sqrt(a,b)
+mod(a,b)
